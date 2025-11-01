@@ -1,4 +1,5 @@
 let NumberToGues = Math.round(Math.random() *100);
+    alert("Error " + NumberToGues * 10);
 let tries = 0;
 function guessTheNumber() {
     tries = tries + 1;
